@@ -1,0 +1,55 @@
+.navContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid white;
+    background-color: #000;
+    align-items: center;
+}
+.listContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 900px;
+    padding: 20px;
+    color: #fff;
+    font-size: 30px;
+}
+.groupedItems {
+    display: flex;
+}
+.groupedItems li {
+    margin-left: 20px;
+}
+img {
+    height: 300px;
+    width: 300px;
+}
+.catContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 30px;
+}
+.cats {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: red;
+    padding: 50px;
+    width: 900px;
+    justify-content: center;
+}
+.one {
+    padding: 20px;
+}
+.foot {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: black;
+}
+h3 {
+    color: white;
+    font-size: 30px;
+}
